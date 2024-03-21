@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="warraper">
+      <div class="box">
+        <div class="header">
+          <div class="header__logo">
+            <img
+              src="./img/rick-and-morty-morty-rick-and-morty-svg-free-stencil-poster-advertisement-halloween-transparent-png-212315.png"
+              alt="So sorry "
+            />
+          </div>
+          <div class="header__menu">
+            <ul class="menu__ul">
+              <li class="header__menu__li">Characters</li>
+              <li class="header__menu__li">Locations</li>
+              <li class="header__menu__li">Episodes</li>
+            </ul>
+          </div>
+        </div>
+        <main class="main">
+          <div>
+            <img class="logo" src="./img/Rick_and_Morty.svg" alt="So sorry" />
+          </div>
+          <div class="main__menu">
+            <input
+              class="main__input"
+              placeholder="Filter by name..."
+              type="text"
+            />
+            <input class="main__input" placeholder="Species" type="text" />
+            <input class="main__input" placeholder="Gender" type="text" />
+            <input class="main__input" placeholder="Status" type="text" />
+          </div>
+          <div class="main__content">
+            <section id="character-cards">
+              <!-- Dynamic character cards will be inserted here -->
+            </section>
+          </div>
+          <div class="">
+            <button class="main__button" id="count_minus">Previous</button>
+            <button class="main__button">LOAD MORE</button>
+            <button class="main__button " id="count_plus">Next</button>
+          </div>
+        </main>
+        <footer class="footer">
+          <p class="footer__p">
+            Make with <span style="color: rgb(44, 206, 187)">❤</span> for the
+            MobProgramming team
+          </p>
+        </footer>
+      </div>
+    </div>
+    <script src="./code.js"></script>
+  </body>
+</html>
